@@ -1,16 +1,5 @@
-modalidad de final una exposición individual oral de 1hs-2hs sobre ISDB-t ABNT NBR 15601
-
-debe contener
-sistema de transmisión
-Deducción de los parámetros (N° de portadoras, N° de símbolos por cuadro OFDM, frecuencia de la IFFT)
-Deducción de las tablas:
-Tabla 2 — Parámetros del segmento OFDM 
-Tabla 3 — Parámetros de la señal de transmisión 
-Tabla 4 — Tasa de datos de un único segmento 
-Tabla 8 — Ajuste del valor de atraso requerido como resultado del entrelazamiento de byte
- 
-simulación Python modo 1, modo 2, modo 3
-sobre las simulaciones medir PAR y CCDF y extraer conclusiones
-simulación GNURADIO
-utilizando el bloque hardware impairments y channel model mediciones de MER en condiciones de ruido, propagación múltiple trayectoria, ruido de fase y de espectro con variaciones del IPO3. Sacar conclusiones sobre el cumplimiento de la máscara de transmisión (7.5)
-El power point y las simulaciones deben ser entregadas como documento de su examen.
+En el siguiente repositorio se encuentra un estudio acerca de ISDB-t ABNT NBR 15601.
+El mismo cuenta con una presentacion donde se puede ver introduccion en el tema, explicacion de la modulacion OFDM, sistemas de trasmision, deduccion de los parametros (N° de portadoras, N° de símbolos por cuadro OFDM, frecuencia de la IFFT) y una deduccion de las tablas 2,3,4 y 8 de la norma.
+En segundo lugar se desarrollo una simulacion en python de los 3 modos y se midio la PAR Y CCDF.
+Y por ultimo una simulacion en GNURADIO utilizando bloques bajados del siguiente git: https://github.com/git-artes/gr-isdbt
+Este trabajo es una presentacion para el final de la materia Radiodifusion Sonora y Televisiva, a cargo del Ingeniero Pablo De Cesare. Los elementos estudiados y utilizados para la composicion del trabajo se encuentran en el drive del profesor donde se utilizo herramientas teoricas y practicas desarrolladas por el mismo, para poder realizar el python y la presentacion. Lo mismo para el GNURADIO.
